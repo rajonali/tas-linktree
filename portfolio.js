@@ -164,7 +164,7 @@ const workExperiences = {
     {
       role: "Frontend React Developer Apprentice",
       company: "Listed-B",
-      companylogo: '/images/subr.svg',
+      companylogo: '/images/user.png',
       date: "September 2018 – Present",
       desc:         "Utilized NextJS + Redux to create an efficient server side rendered landing page solution with state management.",
       descBullets: [
@@ -173,14 +173,14 @@ const workExperiences = {
     {
       role: "Phone Repair Technician",
       company: "Express Mobile Solutions ",
-      companylogo: '/images/subr.svg',
+      companylogo: '/images/user.png',
       date: "July 2019 – Present",
       desc: "Diagnosing then repairing software and hardware issues for phones, tablets, and laptops. Recovered forgotten account credentials, performed data recovery, refurbished devices, performed aftermarket unlocks, and activated cellular service."
     },
     {
       role: "Coding Instructor/Mentorship",
       company: "Futures Fund",
-      companylogo: '/images/subr.svg',
+      companylogo: '/images/user.png',
       date: "July 2019 – August 2019",
       desc: "Teaching and showing the leaders of tomorrow the amazing potential and opportunities found in software and web development. Conduct a classroom environment with 1-on-1 tutoring. Simulate a collaborative environment with task management systems, communication through Slack, using basic VCS and GitHub, creating clone projects, and developing personal portfolios."
     }

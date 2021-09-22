@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.3.4",
+    "colorthief": "^2.3.2",
     "next": "11.1.2",
     "postcss": "^8.3.6",
     "postcss-import": "^14.0.2",

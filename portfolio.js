@@ -126,7 +126,7 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Google IT Support Professional Certificate",
+      schoolName: "Google IT Support Professional",
       logo: '/images/user.png',
       subHeader: "Remote",
       duration: "April 2021 - September 2021",

@@ -16,6 +16,7 @@ export default function Home() {
       <Header greetings={greeting} socialmedia={socialMediaLinks} />
 
 <WorkExperience workExperiences={workExperiences}/>
+<Education educationInfo={educationInfo} />
     </div>
   )
 }

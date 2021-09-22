@@ -32,8 +32,9 @@ console.log(socialmedia);
 
 
     <div className="flex justify-center space-x-5">
-        <button className="bg-purple-600 text-white rounded-md p-3 font-bold">My Resume</button>
-        <button className="bg-purple-600 text-white rounded-md p-3 font-bold">Contact Me</button>
+        <button                   
+        className="bg-purple-600 text-white rounded-md p-3 font-bold"><a href={greetings.resumeLink}>My Resume</a></button>
+        <button className="bg-purple-600 text-white rounded-md p-3 font-bold"> <a href={`mailto:${socialmedia.gmail}`}>Contact Me</a></button>
 
     </div>
 

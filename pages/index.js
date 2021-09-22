@@ -8,15 +8,15 @@ import WorkExperience from '../components/WorkExperience';
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-b from-white-400 to-transparent h-auto">
+    <div className="flex flex-col bg-gradient-to-b from-white-400 to-transparent h-auto w-auto">
       <Head>
         <title>{greeting.username}</title>
       </Head>      
       <Nav />
       <Header greetings={greeting} socialmedia={socialMediaLinks} />
 
+      <Education educationInfo={educationInfo} />
 <WorkExperience workExperiences={workExperiences}/>
-   
     </div>
   )
 }

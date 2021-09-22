@@ -12,7 +12,7 @@ export const Nav = () => {
     };
     
     return (
-        <nav className='flex items-center flex-wrap bg-purple-700 p-3 '>
+        <nav className='flex items-center flex-wrap bg-purple-700 p-3'>
          <Link href='/'>
           <a className='inline-flex items-center p-2 mr-4 '>
            
@@ -56,12 +56,27 @@ export const Nav = () => {
             </Link>
             <Link href='/'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-white hover:text-purple-600'>
-                Services
+                Education
               </a>
             </Link>
             <Link href='/'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-white hover:text-purple-600'>
-                About us
+                Work Experience
+              </a>
+            </Link>
+            <Link href='/'>
+              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-white hover:text-purple-600'>
+                Open Source
+              </a>
+            </Link>
+            <Link href='/'>
+              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-white hover:text-purple-600'>
+                Achievements
+              </a>
+            </Link>
+            <Link href='/'>
+              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-white hover:text-purple-600'>
+                Blog
               </a>
             </Link>
             <Link href='/'>

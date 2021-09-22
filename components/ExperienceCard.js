@@ -32,13 +32,13 @@ export default function ExperienceCard({cardInfo, isDark}) {
   };
 
   return (
-    <div className="experience-card relative w-auto h-auto bg-yellow-200 rounded-md pb-8 shadow-md hover:shadow-lg transition flex flex-col">
+    <div className="experience-card relative w-auto h-auto bg-gray-100 rounded-md pb-8 shadow-md hover:shadow-lg transition flex flex-col">
       <div style={{background: rgb(colorArrays)}} className="experience-banner ">
 
 
 
 
-        <div className="relative flex justify-center bg-gray-100  z-10 shadow-lg hover:shadow-xl transition">
+        <div className="relative flex justify-center bg-white  z-10 shadow-sm hover:shadow-xl transition">
 
 
         <Image

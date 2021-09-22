@@ -18,8 +18,8 @@ export default function EducationCard({school}) {
   return (
     <div className="">
       <Fade left duration={1000}>
-        <div className="education-card bg-purple-400 rounded-md ">
-        <div className="relative flex m-5 w-100 rounded-full justify-center bg-transparent z-10 shadow-none hover:shadow-xl transition">
+        <div className="education-card bg-gray-100 rounded-md shadow-md ">
+        <div className="relative flex m-5 w-100 rounded-full justify-center bg-transparent z-10 shadow-none transition">
 
 
 <Image

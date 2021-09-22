@@ -5,7 +5,7 @@ import Nav from '../components/Nav'
 import {greeting, socialMediaLinks, educationInfo, workExperiences} from "../portfolio";
 import Education from '../components/Education';
 import WorkExperience from '../components/WorkExperience';
-
+import Skills from '../components/Skills';
 export default function Home() {
   return (
     <div className="flex flex-col bg-gradient-to-b from-white-400 to-transparent h-auto w-auto">
@@ -16,6 +16,7 @@ export default function Home() {
       <Header greetings={greeting} socialmedia={socialMediaLinks} />
 
 <WorkExperience workExperiences={workExperiences}/>
+<Skills />
 <Education educationInfo={educationInfo} />
     </div>
   )

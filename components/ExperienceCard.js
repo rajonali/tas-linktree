@@ -32,13 +32,13 @@ export default function ExperienceCard({cardInfo, isDark}) {
   };
 
   return (
-    <div className="experience-card relative w-auto h-auto bg-purple-400 rounded-md pt-20 pb-8 px-4 shadow-md hover:shadow-lg transition flex flex-col items-center">
+    <div className="experience-card relative w-auto h-auto bg-yellow-200 rounded-md pb-8 shadow-md hover:shadow-lg transition flex flex-col">
       <div style={{background: rgb(colorArrays)}} className="experience-banner ">
 
 
 
 
-        <div className="relative flex rounded-full justify-center bg-gray-100 p-2 z-10 shadow-lg hover:shadow-xl transition">
+        <div className="relative flex justify-center bg-gray-100  z-10 shadow-lg hover:shadow-xl transition">
 
 
         <Image
@@ -63,7 +63,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
       </div>
       <div className="experience-text-details">
         <h5
-          className="experience-text-role text-3xl font-semibold text-center"
+          className="experience-text-role text-3xl p-2 font-semibold text-center"
         >
           {cardInfo.role}
         </h5>
@@ -73,7 +73,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
           {cardInfo.date}
         </h5>
         <p
-          className="subTitle experience-text-desc text-1xl pt-10 font-semibold"
+          className="subTitle experience-text-desc text-1xl p-5 font-semibold"
         >
           {cardInfo.desc}
         </p>

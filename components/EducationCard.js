@@ -18,18 +18,24 @@ export default function EducationCard({school}) {
   return (
     <div className="">
       <Fade left duration={1000}>
-        <div className="education-card bg-purple-400 rounded-md">
-          <div className="education-card-left p-10">
-            <Image
-              width="150px"
-              height="150px"
-              crossOrigin={"anonymous"}
-              ref={imgRef}
-              className="education-roundedimg"
-              src={school.logo}
-              alt={school.schoolName}
-            />
-          </div>
+        <div className="education-card bg-purple-400 rounded-md ">
+        <div className="relative flex m-5 rounded-full justify-center bg-gray-100 z-10 shadow-lg hover:shadow-xl transition">
+
+
+<Image
+      width="150px"
+      height="150px"
+
+  crossOrigin={"anonymous"}
+  ref={imgRef}
+  className="experience-roundedimg"
+  src={school.logo}
+  alt={school.alt}
+/>
+
+
+</div>
+
           <div className="education-card-right ">
             <h5 className="education-text-school">{school.schoolName}</h5>
 

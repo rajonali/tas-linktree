@@ -117,7 +117,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Southern University A&M",
-      logo: '/images/user.png',
+      logo: '/images/subr.svg',
       subHeader: "Bachelors of Computer Science",
       duration: "September 2021 - Present",
       desc: "",

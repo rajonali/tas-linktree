@@ -7,19 +7,27 @@ import Education from '../components/Education';
 import WorkExperience from '../components/WorkExperience';
 import Skills from '../components/Skills';
 import FeaturedProjects from '../components/FeaturedProjects';
+import SkillsSection from '../components/SkillsSection';
+
 
 export default function Home() {
   return (
     <div className="flex flex-col bg-gradient-to-b from-white-400 to-transparent h-auto w-auto">
       <Head>
+        
         <title>{greeting.username}</title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.13.0/css/all.min.css" />
+
       </Head>      
       <Nav />
       <Header greetings={greeting} socialmedia={socialMediaLinks} />
 
 <WorkExperience workExperiences={workExperiences}/>
-<Skills />  
 <FeaturedProjects />
+
+<SkillsSection />
+<Skills />  
 <Education educationInfo={educationInfo} />
     </div>
   )

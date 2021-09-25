@@ -79,9 +79,14 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "linux",
+      fontAwesomeClassname: "fab fa-linux"
     },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -89,6 +94,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
     },
     {
       skillName: "aws",

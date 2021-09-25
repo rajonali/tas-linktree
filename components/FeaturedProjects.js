@@ -36,7 +36,7 @@ myinfo
     <div ref={ref} className="relative group cursor-pointer p-2 transition duration-200 ease-in transform sm:hover:scale-105 hover:z-50">
         <Image
         layout="responsive"
-        src={require('../public/images/crudimt.gif')}
+        src={require('../public/images/listedblanding.png')}
         height={1080}
         width={1920} 
         />

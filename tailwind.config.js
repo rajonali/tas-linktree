@@ -5,11 +5,14 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('/images/kennybreland.png')",
-       }
+       },
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      animation: ['group-hover'],
+
+    },
   },
   plugins: [],
 }

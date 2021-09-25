@@ -12,7 +12,7 @@ const illustration = {
 
 const greeting = {
   username: "TAS ALI",
-  title: "Hey y'all, I'm Tas 🤠",
+  title: "Hey Y'all, I'm Tas 🤠",
   subTitle: emoji(
     "A cyber security enthusiast with a passion for web development."
   ),

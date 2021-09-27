@@ -182,7 +182,7 @@ const workExperiences = {
     {
       role: "Phone Repair Technician",
       company: "Express Mobile Solutions ",
-      companylogo: '/images/ems.svg',
+      companylogo: '/images/ems.PNG',
       date: "July 2019 – Present",
       desc: "Diagnosing then repairing software and hardware issues for phones, tablets, and laptops. Recovered forgotten account credentials, performed data recovery, refurbished devices, performed aftermarket unlocks, and activated cellular service."
     },
